@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #255;
+    padding: 20px;
+    font-family: Dosis;
+    justify-content: center;
+}
+section{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+section :last-child{
+    margin-right: none;
+}
+h2{
+    color: #FFFFFF;
+    border-bottom: white solid 2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: .8em;
+}
+a:hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 4px;
+}

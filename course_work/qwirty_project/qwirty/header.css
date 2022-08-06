@@ -1,0 +1,83 @@
+.main-nav, .sub-nav {
+    display: flex;
+}
+.main-nav {
+    background-color: darkcyan;
+    justify-content: space-between;
+}
+.nav-list.full-width {
+    display: none;
+}
+.nav-list.short-width {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.nav-list li a {
+    padding: 5px;
+    border-right: 2px white solid;
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li:last-of-type a {
+    border-right: none;
+}
+.sub-nav {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+}
+.search-form {
+    display: flex;
+    flex-grow: 1;
+}
+.sub-nav input, button {
+    padding: 2px;
+    border: none;
+    border-bottom: 1px darkcyan solid;
+}
+.sub-nav button {
+    background-color: darkcyan;
+}
+.sub-nav input {
+    flex-grow: 1;
+}
+
+.credit-offer {
+background-color: red;
+color: white;
+padding: 5px;
+text-decoration: none;
+margin-left: 8px;
+
+}
+.company-name {
+    font-size: 2em;
+    color: darkcyan;
+    margin: 0 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .nav-list.full-width {
+        display: flex;
+    }
+    .nav-list.nav-list.short-width {
+        display: none;
+    }
+}   
